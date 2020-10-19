@@ -4,6 +4,7 @@ namespace Looxis\LaravelAmazonMWS\Tests;
 
 use Looxis\LaravelAmazonMWS\MWSFeeds;
 use Looxis\LaravelAmazonMWS\MWSOrders;
+use Looxis\LaravelAmazonMWS\MWSProducts;
 use Looxis\LaravelAmazonMWS\MWSService;
 use Orchestra\Testbench\TestCase;
 
@@ -21,5 +22,12 @@ class MWSServiceTest extends TestCase
     {
         $mws = new MWSService;
         $this->assertInstanceOf(MWSFeeds::class, $mws->feeds());
+    }
+
+    /** @test */
+    public function get_products_service()
+    {
+        $mws = new MWSService;
+        $this->assertInstanceOf(MWSProducts::class, $mws->feeds());
     }
 }

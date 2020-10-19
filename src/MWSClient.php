@@ -213,7 +213,11 @@ class MWSClient
     {
         $params = [];
         foreach ($this->marketPlaces as $index => $marketPlace) {
-            $keyName = 'MarketplaceId.Id.'.($index + 1);
+            if (count($this->marketPlaces) > 1) {
+                $keyName = 'MarketplaceId.Id.'.($index + 1);
+            } else {
+                $keyName = 'MarketplaceId';
+            }
             $params[$keyName] = $this->countries[$marketPlace];
         }
 

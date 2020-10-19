@@ -1,0 +1,142 @@
+<?xml version="1.0"?>
+<ListMatchingProductsResponse xmlns="http://mws.amazonservices.com/schema/Products/2011-10-01">
+  <ListMatchingProductsResult>
+    <Products xmlns:ns2="http://mws.amazonservices.com/schema/Products/2011-10-01/default.xsd">
+      <Product>
+        <Identifiers>
+          <MarketplaceASIN>
+            <MarketplaceId>A1F83G8C2ARO7P</MarketplaceId>
+            <ASIN>B0002W1AE6</ASIN>
+          </MarketplaceASIN>
+        </Identifiers>
+        <AttributeSets>
+          <ns2:ItemAttributes xml:lang="en-GB">
+            <ns2:Actor>Anthony Hopkins</ns2:Actor>
+            <ns2:Actor>Julianne Moore</ns2:Actor>
+            <ns2:Actor>Ray Liotta</ns2:Actor>
+            <ns2:Actor>Gary Oldman</ns2:Actor>
+            <ns2:Actor>Frankie R. Falson</ns2:Actor>
+            <ns2:Actor>Giancarlo Giannini</ns2:Actor>
+            <ns2:Actor>Francesca Neri</ns2:Actor>
+            <ns2:Actor>Zeljko Ivanek</ns2:Actor>
+            <ns2:Actor>Hazelle Goodman</ns2:Actor>
+            <ns2:Actor>Mark Margolis</ns2:Actor>
+            <ns2:AspectRatio>1.85:1</ns2:AspectRatio>
+            <ns2:AudienceRating>Suitable for 18 years and over</ns2:AudienceRating>
+            <ns2:Binding>DVD</ns2:Binding>
+            <ns2:Brand>UCA</ns2:Brand>
+            <ns2:Creator Role="Primary Contributor">Anthony Hopkins</ns2:Creator>
+            <ns2:Creator Role="Primary Contributor">Julianne Moore</ns2:Creator>
+            <ns2:Creator Role="Producer">Ridley Scott</ns2:Creator>
+            <ns2:Creator Role="Producer">Dino de Laurentiis</ns2:Creator>
+            <ns2:Creator Role="Producer">Martha de Laurentiis</ns2:Creator>
+            <ns2:Director>Ridley Scott</ns2:Director>
+            <ns2:Format>PAL</ns2:Format>
+            <ns2:Genre>Feature|Thriller</ns2:Genre>
+            <ns2:ItemDimensions>
+              <ns2:Height Units="inches">7.4803000</ns2:Height>
+              <ns2:Length Units="inches">5.3149500</ns2:Length>
+              <ns2:Width Units="inches">0.5905500</ns2:Width>
+              <ns2:Weight Units="pounds">0.1543235834000</ns2:Weight>
+            </ns2:ItemDimensions>
+            <ns2:IsAdultProduct>false</ns2:IsAdultProduct>
+            <ns2:Label>Universal Pictures UK</ns2:Label>
+            <ns2:Languages>
+              <ns2:Language>
+                <ns2:Name>arabic</ns2:Name>
+                <ns2:Type>Subtitled</ns2:Type>
+              </ns2:Language>
+              <ns2:Language>
+                <ns2:Name>danish</ns2:Name>
+                <ns2:Type>Subtitled</ns2:Type>
+              </ns2:Language>
+              <ns2:Language>
+                <ns2:Name>dutch</ns2:Name>
+                <ns2:Type>Subtitled</ns2:Type>
+              </ns2:Language>
+              <ns2:Language>
+                <ns2:Name>finnish</ns2:Name>
+                <ns2:Type>Subtitled</ns2:Type>
+              </ns2:Language>
+              <ns2:Language>
+                <ns2:Name>greek</ns2:Name>
+                <ns2:Type>Subtitled</ns2:Type>
+              </ns2:Language>
+              <ns2:Language>
+                <ns2:Name>hebrew</ns2:Name>
+                <ns2:Type>Subtitled</ns2:Type>
+              </ns2:Language>
+              <ns2:Language>
+                <ns2:Name>hindi</ns2:Name>
+                <ns2:Type>Subtitled</ns2:Type>
+              </ns2:Language>
+              <ns2:Language>
+                <ns2:Name>norwegian</ns2:Name>
+                <ns2:Type>Subtitled</ns2:Type>
+              </ns2:Language>
+              <ns2:Language>
+                <ns2:Name>swedish</ns2:Name>
+                <ns2:Type>Subtitled</ns2:Type>
+              </ns2:Language>
+              <ns2:Language>
+                <ns2:Name>english</ns2:Name>
+                <ns2:Type>Original Language</ns2:Type>
+              </ns2:Language>
+              <ns2:Language>
+                <ns2:Name>english</ns2:Name>
+                <ns2:Type>Unknown</ns2:Type>
+              </ns2:Language>
+            </ns2:Languages>
+            <ns2:ListPrice>
+              <ns2:Amount>6.99</ns2:Amount>
+              <ns2:CurrencyCode>GBP</ns2:CurrencyCode>
+            </ns2:ListPrice>
+            <ns2:Manufacturer>Universal Pictures UK</ns2:Manufacturer>
+            <ns2:NumberOfDiscs>1</ns2:NumberOfDiscs>
+            <ns2:NumberOfItems>1</ns2:NumberOfItems>
+            <ns2:PackageDimensions>
+              <ns2:Height Units="inches">0.58267716476</ns2:Height>
+              <ns2:Length Units="inches">7.09842518961</ns2:Length>
+              <ns2:Width Units="inches">5.41732282912</ns2:Width>
+              <ns2:Weight Units="pounds">0.1833364170792</ns2:Weight>
+            </ns2:PackageDimensions>
+            <ns2:PackageQuantity>1</ns2:PackageQuantity>
+            <ns2:PartNumber>5050582286984</ns2:PartNumber>
+            <ns2:ProductGroup>DVD</ns2:ProductGroup>
+            <ns2:ProductTypeName>ABIS_DVD</ns2:ProductTypeName>
+            <ns2:Publisher>Universal Pictures UK</ns2:Publisher>
+            <ns2:RegionCode>2</ns2:RegionCode>
+            <ns2:ReleaseDate>2011-10-03</ns2:ReleaseDate>
+            <ns2:RunningTime Units="minutes">126</ns2:RunningTime>
+            <ns2:SmallImage>
+              <ns2:URL>https://m.media-amazon.com/images/I/412PQ2Q6X7L._SL75_.jpg</ns2:URL>
+              <ns2:Height Units="pixels">75</ns2:Height>
+              <ns2:Width Units="pixels">53</ns2:Width>
+            </ns2:SmallImage>
+            <ns2:Studio>Universal Pictures UK</ns2:Studio>
+            <ns2:TheatricalReleaseDate>2019-11-21</ns2:TheatricalReleaseDate>
+            <ns2:Title>Hannibal [DVD]</ns2:Title>
+          </ns2:ItemAttributes>
+        </AttributeSets>
+        <Relationships/>
+        <SalesRankings>
+          <SalesRank>
+            <ProductCategoryId>dvd_display_on_website</ProductCategoryId>
+            <Rank>39910</Rank>
+          </SalesRank>
+          <SalesRank>
+            <ProductCategoryId>9840820031</ProductCategoryId>
+            <Rank>3068</Rank>
+          </SalesRank>
+          <SalesRank>
+            <ProductCategoryId>9840842031</ProductCategoryId>
+            <Rank>4734</Rank>
+          </SalesRank>
+        </SalesRankings>
+      </Product>
+    </Products>
+  </ListMatchingProductsResult>
+  <ResponseMetadata>
+    <RequestId>b0c0367a-47f1-46ae-be98-19d38829d662</RequestId>
+  </ResponseMetadata>
+</ListMatchingProductsResponse>

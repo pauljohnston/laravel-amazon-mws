@@ -14,6 +14,11 @@ class MWSService
         return new MWSOrders($this->mwsClient);
     }
 
+    public function products()
+    {
+        return new MWSProducts($this->mwsClient);
+    }
+
     public function feeds()
     {
         return new MWSFeeds($this->mwsClient);
