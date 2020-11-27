@@ -185,9 +185,8 @@ class MWSClient
         $uri = 'https://'.$this->getDomain().$path;
         $response = $this->client->post($uri, $requestOptions);
         $xmlResponse = simplexml_load_string($response->getBody()->getContents());
-        $json = json_encode($xmlResponse);
 
-        return json_decode($json, true);
+        return $xmlResponse;
     }
 
     public function getDefaultQueryParams($action, $version, $params = [])

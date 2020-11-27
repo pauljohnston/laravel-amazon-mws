@@ -21,19 +21,34 @@ class MWSProducts
 
         $response = $this->client->post($action, '/Products/'.self::VERSION, self::VERSION, $params);
 
-        dd($response);
-
-        return $this->parseResponse($response, $action.'Result', 'Products.Product.AttributeSets');
+        return $this->parseResponse($response, $action.'Result');
     }
 
-    protected function parseResponse($response)
+    public function getByTypeId($params = [])
+    {
+        $action = 'GetMatchingProductForId';
+
+        $response = $this->client->post($action, '/Products/'.self::VERSION, self::VERSION, $params);
+
+        return $this->parseResponse($response, $action.'Result');
+    }
+
+    protected function parseResponse($response, $result)
     {
         $requestId = data_get($response, 'ResponseMetadata.RequestId');
-        $feed = data_get($response, 'ListMatchingProductsResult.Products.Product');
+        $data = data_get($response, $result.'.Products.Product');
+        $attributes = $data->AttributeSets->children('ns2', true)->ItemAttributes;
 
-        return [
+        return $this->xmlToArray([
             'request_id' => $requestId,
-            'data' => $feed,
-        ];
+            'data' => $data,
+            'attributes' => $attributes,
+        ]);
+    }
+
+    protected function xmlToArray($xml)
+    {
+        $array = json_encode($xml);
+        return json_decode($array, true);
     }
 }
